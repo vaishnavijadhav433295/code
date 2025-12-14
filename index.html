@@ -15,12 +15,21 @@
             color: #333;
         }
 
-        .container {
+        /* .container {
             max-width: 900px;
             margin: 40px auto;
             background: #fff;
             padding: 30px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        } */
+        .container {
+            max-width: 900px;
+            margin: 5px auto;
+            background: #fff;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: 2px solid black;  /* <-- Added border */
+            box-sizing: border-box;
         }
 
         h1,
@@ -29,7 +38,7 @@
         }
 
         h1 {
-            font-size: 32px;
+            font-size: 30px;
             border-bottom: 3px solid;
             padding-bottom: 10px;
         }
@@ -62,7 +71,7 @@
         }
 
         .section h2 {
-            font-size: 24px;
+            font-size: 20px;
             border-bottom: 2px solid #333;
             padding-bottom: 5px;
         }
@@ -74,7 +83,7 @@
 
         .title {
             font-weight: bold;
-            font-size: 16px;
+            font-size: 14px;
         }
 
         .subtitle {
@@ -145,15 +154,12 @@
             <h2>Education</h2>
             <div class="education-item">
                 <div class="title">Bachelor of Engineering - BE in Information Technology</div> Datta Meghe College of
-                Engineering, Airoli, Navi Mumbai<div class="subtitle">Jul 2019 – Jun 2022 |
-                    Airoli, New Mumbai</div>
-                <div class="subtitle">Grade: 8.56 CGPI</div>
+                Engineering, Airoli, Navi Mumbai
+                <div class="subtitle">Jul 2019 – Jun 2022 | Grade: 8.56 CGPI</div>
             </div>
             <div class="education-item">
                 <div class="title">Diploma of Education - Computer Engineering</div> Shivajirao S Jondhale College of
-                Engineering , Dombivli (West), Thane <div class="subtitle">Jun 2016 – Jun 2019 |
-                    Dombivli, Thane</div>
-                <div class="subtitle">Grade: 78.00%</div>
+                Engineering , Dombivli (West), Thane <div class="subtitle">Jun 2016 – Jun 2019 | Grade: 78.00%</div>
             </div>
         </div> <!-- Skills -->
         <div class="section">
@@ -176,7 +182,7 @@
                 <div class="subtitle">
                 - Migrated 14 applications to AWS ECS with microservices architecture<br>
                 - Automated deployments using CodePipeline, CodeBuild, and Docker<br>
-                - Implemented approval stages, SNS notifications, and autoscaling<br>
+                - Implemented approval stages, SNS notifications and autoscaling<br>
                 - Integrated security scans and centralized logging via CloudWatch<br>
                 - Performed end-to-end testing and validation to ensure application consistency and reliability
                 </div>
@@ -186,8 +192,9 @@
                 <div class="subtitle">
                     - Migrated enterprise data to GCP BigQuery using Cloud Run and Workflows<br>
                     - Automated infrastructure using Terraform and GitHub Actions<br>
+                    - Developed BigQuery tables and views; converted on-prem shell scripts to run on Cloud Run using Docker containers.<br> 
                     - Implemented end-to-end automated execution of Cloud Run jobs with monitoring and validation<br>
-                    - Performed unit testing and validation to ensure data consistency and reliability 
+                    - Performed unit testing and validation to ensure data consistency and reliability
                 </div>
             </div>
             <div class="education-item">
@@ -204,12 +211,11 @@
             <ul>
                 <li>AWS Certified Cloud Practitioner </li>
                 <li>Technical Excellence Award</li>
-                <li>Certificate of Appreciation</li>
+                <li>Certificate of Appreciation and Achievement</li>
                 <li>Applause Award</li>
                 <li>On the spot team award</li>
                 <li>Smart India Hackathon – Participant</li>
-                <li>Certificate of Internship</li>
-                <li>Certificate of Achievement</li>
+                <li>Certificate of Internship and Achievement</li>
             </ul>
         </div>
     </div>
