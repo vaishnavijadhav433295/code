@@ -20,7 +20,8 @@
             margin: 5px auto;
             background: #fff;
             padding: 30px;
-            border: 2px solid black;  /* <-- Added border */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: 1px solid black;  /* <-- Added border */
             box-sizing: border-box;
         }
 
@@ -47,7 +48,7 @@
         .contact-left {
             width: 150px;
             height: 150px;
-            border: 2px solid;
+            border: 2dpx solid;
             background-size: cover;
             background-position: center;
         }
@@ -96,14 +97,14 @@
 
 <body>
     <div class="container"> <!-- Header -->
-        <h1>Vaishnavi Jadhav - Cloud & DevOps Engineer | AWS & GCP Developer</h1>
+        <h1>Vaishnavi Jadhav - Cloud & DevOps Engineer</h1>
         <div class="contact"> <!-- LEFT column: photo -->
-            <div class="contact-left" style="background-image: url('vaishnavi.jpg');"> </div>
+            <div class="contact-left" style="background-image: url('C:/Users/admin/Downloads/vaishnavi.jpg');"> </div>
         <!-- RIGHT column: contact info -->
             <div class="contact-right">
                 <p><i class="fa-solid fa-envelope"></i> &nbsp;Email: vaishnavijadhav433295@gmail.com</p>
                 <p><i class="fa-solid fa-phone"></i> &nbsp;Contact No: (+91) 9022031125</p>
-                <p><i class="fa-solid fa-location-dot"></i> &nbsp; Location: Ambernath, Thane, Maharashtra</p>
+                <p><i class="fa-solid fa-location-dot"></i> &nbsp; Location: Thane, Maharashtra</p>
                 <p><i class="fa-brands fa-linkedin"></i> &nbsp; Profile Link: <a href="https://www.linkedin.com/in/vaishnavi-n-jadhav/">Vaishnavi Jadhav</a></p>
             </div>
         </div> <!-- Summary -->
@@ -157,45 +158,36 @@
         <div class="section">
             <h2>Skills</h2>
             <ul>
-                <li><b>Cloud Platforms:</b><br> AWS (ECS, S3, IAM, CloudFormation, CodePipeline, CodeBuild, Lambda, 
-                        CloudFront, Cognito, SNS, Secrets Manager)<br>
-                        GCP (BigQuery, Cloud Run, Cloud Storage, Artifact Registry, Workflows, IAM) </li>
-                <li><b>DevOps & IaC:</b><br>Terraform, CloudFormation, GitHub Actions, AWS CI/CD (CodePipeline, CodeBuild), Docker</li>
+                <li><b>Cloud Platforms:</b><br> AWS, GCP</li><br>
+                <li><b>DevOps & IaC & scripting:</b><br>Terraform, CloudFormation, GitHub Actions, AWS CI/CD (CodePipeline, CodeBuild), Docker, Shell Scripting</li><br>
                 <li><b>Monitoring & Security:</b><br> CloudWatch, GCP Log Explorer, New Relic<br>
-                        SonarQube, Twistlock, SAST, Sysdig</li>
-                <li><b>Scripting & Databases:</b><br>Bash, Shell Scripting, MySQL, BigQuery</li>
-                <li><b>Tools:</b><br>GitHub, Bitbucket, Jira, Rally, Confluence, Control-M</li>
+                        SonarQube, Twistlock, SAST, Sysdig</li><br>
+                <li><b>Tools:</b><br>GitHub, Bitbucket, Jira, Rally, Confluence, Control-M, MySQL, Postman</li>
             </ul>
         </div>
         <div class="section">
             <h2>Projects</h2>
             <div class="education-item">
                 <div class="title">CICADA EXIT</div> 
-                <div class="subtitle">
                 - Migrated 14 applications to AWS ECS with microservices architecture<br>
                 - Automated deployments using CodePipeline, CodeBuild, and Docker<br>
                 - Implemented approval stages, SNS notifications and autoscaling<br>
                 - Integrated security scans and centralized logging via CloudWatch<br>
                 - Performed end-to-end testing and validation to ensure application consistency and reliability
-                </div>
             </div>
             <div class="education-item">
                 <div class="title">Data move to cloud</div>
-                <div class="subtitle">
                     - Migrated enterprise data to GCP BigQuery using Cloud Run and Workflows<br>
                     - Automated infrastructure using Terraform and GitHub Actions<br>
                     - Developed BigQuery tables and views; converted on-prem shell scripts to run on Cloud Run using Docker containers.<br> 
                     - Implemented end-to-end automated execution of Cloud Run jobs with monitoring and validation<br>
                     - Performed unit testing and validation to ensure data consistency and reliability
-                </div>
             </div>
             <div class="education-item">
                 <div class="title">Lex Chatbot</div> 
-                <div class="subtitle">
                     - Built a customer support chatbot using AWS Lex, Lambda, and Amazon Connect<br>
                     - Created CloudFormation templates and CI/CD pipelines<br> 
                     - Hosted frontend using S3 and CloudFront<br>
-                </div>
             </div>
         </div>
         <div class="section">
